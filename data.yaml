@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fully_visible', 'partially_visible']
+
+roboflow:
+  workspace: paytmlogodetection
+  project: finalpaytm
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/paytmlogodetection/finalpaytm/dataset/3
